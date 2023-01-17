@@ -38,7 +38,7 @@ layout = [
     [sg.Table(values=[], headings=['Host', 'Status'], key='table', size=(60, 80), font='Garamond 12')]
 ]
 
-window = sg.Window('USCIS TOC Concurrent Ping Utility',size=(600, 400)).layout(layout)
+window = sg.Window('Concurrent Ping Utility',size=(600, 400)).layout(layout)
 
 results_queue = queue.Queue()
 thread = None
